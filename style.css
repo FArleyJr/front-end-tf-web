@@ -1,0 +1,43 @@
+htlml {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family:arial;
+    font-size: 20px; 
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.cabecalho01{
+    width:100%;
+    height: 250px;
+    background-color:lightgray;
+    margin-top:0;
+    display: flex;
+}
+
+.texto h1{
+    text-align: right;
+    margin-right:10px;
+    font-size:20px;
+}
+
+.texto h3{
+    margin-top:20px;
+    text-align: right;
+    margin-right:10px;
+    font-size:13px;
+}
+
+.Logo{
+    border: solid 2px black;
+    position:absolute;
+    text-align:left;
+    margin-top: 0;
+    background-image: url("Imagens/CLogo01-remove.png");
+    width: 300px; /* Defina a largura da div como desejado */
+    height: 250px; /* Defina a altura da div como desejado */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a div */
+    background-position: center; /* Centraliza a imagem na div */
+}
