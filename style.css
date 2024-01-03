@@ -1,4 +1,4 @@
-htlml {
+htlml {                       
     box-sizing: border-box;
 }
 body {
@@ -20,16 +20,52 @@ body {
 }
 
 .Logo{
-    border: solid 2px black;
     position:absolute;
     text-align:left;
     margin-top: 0;
     background-image: url("Imagens/CLogo01-remove.png");
-    width: 299px; /* Defina a largura da div como desejado */
-    height: 249px; /* Defina a altura da div como desejado */
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a div */
-    background-position: center; /* Centraliza a imagem na div */
+    width: 299px; 
+    height: 249px; 
+    background-size: cover; 
+    background-position: center; 
 }
+
+.botoes{
+    display:flex;
+    justify-content: center;
+}
+
+
+#SobreNos{
+    background-image: url("Imagens/10449616.png");
+    background-size: cover;
+    background-position: center;
+    margin:0 15px;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+
+#NovoEvento {
+    background-image: url("Imagens/BtnMaisInfo.png");
+    background-size: cover;
+    background-position: center;
+    margin:0 15px;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+
+#Conta {
+    background-image: url("Imagens/BtnConta.png");
+    background-size: cover;
+    background-position: center;
+    margin:0 15px;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+
 
 .texto{
     margin-left:auto;
