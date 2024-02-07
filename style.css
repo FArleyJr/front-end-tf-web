@@ -2,21 +2,21 @@ htlml {
     box-sizing: border-box;
 }
 body {
-    background-color: white;
+    background-color: whitesmoke;
     font-family:arial;
     font-size: 20px; 
     overflow-x: hidden;
     box-sizing: border-box;
 }
-
+ 
 .cabecalho01{
     width:100%;
-    height: 250px;
-    background-color:aliceblue;
-    margin-top:0;
-    display: flex;
-    text-align: flex-start;
-    flex-direction: column;
+    height: 200px;
+    background-image: linear-gradient(to right, #ffffff, #ff8000);
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .Logo{
@@ -30,42 +30,28 @@ body {
     background-position: center; 
 }
 
-.botoes{
+.botoes{  
+    margin-left:550px;
+    margin-top: 120px;
+    border: none;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+.botoes01{
+  border:none;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: bold;
 
-#SobreNos{
-    background-image: url("Imagens/10449616.png");
-    background-size: cover;
-    background-position: center;
-    margin:0 15px;
-    height: 80px;
-    width: 80px;
+}
+
+#SobreNos, #NovoEvento, #Conta{
+    margin-right: 25px;
+    font-size: 15px;
+    background-color:transparent;
     border: none;
 }
-
-#NovoEvento {
-    background-image: url("Imagens/BtnMaisInfo.png");
-    background-size: cover;
-    background-position: center;
-    margin:0 15px;
-    height: 80px;
-    width: 80px;
-    border: none;
-}
-
-#Conta {
-    background-image: url("Imagens/BtnConta.png");
-    background-size: cover;
-    background-position: center;
-    margin:0 15px;
-    height: 80px;
-    width: 80px;
-    border: none;
-}
-
 
 .texto{
     margin-left:auto;
@@ -84,7 +70,7 @@ body {
 
 .texto h1{
     font-family:serif;
-    margin-right:10px;
+    margin-right:40px;
     font-size:60px;
     text-align: right;
     position:relative;
@@ -92,10 +78,58 @@ body {
 
 .texto02 h3{
     margin-top:10px;
-    margin-right:10px;
-    text-align:right;
+    margin-right:40px;
     font-size:20px;
     position:absolute;
 }
 
+.barra_de_pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .pesquisa {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, white, #ff8000);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pesquisar:hover {
+    background-color: #45a049;
+  }
 
+  .Eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 5px;
+  }
+
+  .evento1, .evento2, .evento3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: solid 2px black;
+    width:350px;
+    height:200px;
+    box-shadow: 9px 10px 25px rgba(0, 0, 2, 0.2);
+
+  }
